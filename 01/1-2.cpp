@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     ifstream inputFile;
-    inputFile.open("1.txt");
+    inputFile.open("input.txt");
     string line;
     int sum = 0;
     if (inputFile.is_open()) {
